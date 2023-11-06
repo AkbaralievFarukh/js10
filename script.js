@@ -1,19 +1,3 @@
-// setTimeout(() => {
-//     console.log(123)
-// }, 2000)
-// console.log('Hello')
-// const handleInterval = setInterval(() => {
-//     console.log('Its interval')
-// }, 2000)
-// const handleClear = () => {
-//     clearInterval(handleInterval)
-// }
-//
-// setTimeout(() => {
-//     handleClear()
-// }, 10000)
-// console.log(333)
-
 const name = document.querySelector('#name')
 const color = document.querySelector('#color')
 const vehicle = document.querySelector('#vehicle')
