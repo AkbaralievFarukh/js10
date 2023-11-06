@@ -25,7 +25,7 @@ const submit = document.querySelector('#submit')
 submit.addEventListener('click', () => {
     let value = input.value;
     fetch(`https://swapi.dev/api/people/${value}`)
-        .then(res => res.json())
+        .then(response => response.json())
         .then(personData => {
             name.innerHTML = personData.name;
             color.innerHTML = personData.hair_color;
