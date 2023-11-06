@@ -14,3 +14,11 @@ body {
     background-color: #333;
     color: white;
 }
+
+#cat_img {
+    max-width: 500px;
+    height: 500px;
+    width: 100%;
+    object-fit: contain;
+    margin-top: 20px;
+}
